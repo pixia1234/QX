@@ -13,30 +13,15 @@ hostname = fjjkm1.nebulabd.cn
 */
 
 var body = $response.body;
+var objc = JSON.parse(body);
 
-body = {
-  "Response" : {
-    "Data" : {
-      "NucleicAcidInfoList" : [
-        {
-          "ResultTime" : "2022-07-22 01:31:25",
-          "SamplingTime" : "2022-07-21 19:04:46",
-          "CheckOrgName" : "三明市中西医结合医院",
-          "Result" : "2",
-          "CardName" : "魏*云"
-        },
-        {
-          "ResultTime" : "2022-07-16 22:30:32",
-          "SamplingTime" : "2022-07-16 13:46:25",
-          "CheckOrgName" : "三明市中西医结合医院",
-          "Result" : "2",
-          "CardName" : "魏*云"
-        }
-      ],
-      "CaidStatus" : "2"
-    },
-    "RequestId" : "315c3f0cbcbb6756"
-  }
+objc.items["NucleicAcidInfoList"] = {
+    "ResultTime" : "2022-07-21 01:31:25",
+    "SamplingTime" : "2022-07-20 19:04:46",
+    "CheckOrgName" : "三明市中西医结合医院",
+    "Result" : "2",
+    "CardName" : "魏*云"
 };
-body = JSON.stringify(body);
+
+body = JSON.stringify(objc);
 $done({ body });
