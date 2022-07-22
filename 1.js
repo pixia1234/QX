@@ -2,8 +2,7 @@
 
 [rewrite_local]
 # > fj jkm
-^https?:\/\/fjjkm1\.nebulabd\.cn\/ebus\/jkm\/health-code\/healthcode\/healthcode\/getNucleicAcidInfoList$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
-^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/pixia1234/QX/master/1.js
+^https?:\/\/fjjkm1\.nebulabd\.cn\/ebus\/jkm\/health-code\/healthcode\/healthcode\/getNucleicAcidInfoList$ url script-response-body https://raw.githubusercontent.com/pixia1234/QX/main/1.js
 [mitm] 
 hostname = fjjkm1.nebulabd.cn
 
