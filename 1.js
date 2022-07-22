@@ -1,16 +1,18 @@
+/*
+ *
+ *
 
-
+*******************************
 [rewrite_local]
 # > fj jkm
 ^https?:\/\/fjjkm1\.nebulabd\.cn\/ebus\/jkm\/health-code\/healthcode\/healthcode\/getNucleicAcidInfoList$ url script-response-body https://raw.githubusercontent.com/pixia1234/QX/main/1.js
 [mitm] 
 hostname = fjjkm1.nebulabd.cn
-
-
+*
+*
+*/
 
 var body = $response.body;
-
-
 
 body = {
   "Response" : {
