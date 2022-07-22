@@ -1,4 +1,4 @@
-/*
+
 
 [rewrite_local]
 # > fj jkm
@@ -6,8 +6,6 @@
 [mitm] 
 hostname = fjjkm1.nebulabd.cn
 
-
-*/
 
 
 var body = $response.body;
